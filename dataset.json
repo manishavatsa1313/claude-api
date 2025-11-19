@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "75",
+      "goal": "Marathon training nutrition optimization",
+      "restrictions": "Vegan, gluten-free, high-protein requirements"
+    },
+    "solution_criteria": [
+      "Provides complete daily nutritional coverage",
+      "Meets vegan and gluten-free dietary constraints",
+      "Ensures adequate protein intake for endurance athlete",
+      "Balances macronutrients for performance"
+    ],
+    "task_description": "write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test scenario with extreme dietary restriction (vegan, gluten-free, high-protein for endurance athlete)"
+  },
+  {
+    "prompt_inputs": {
+      "height": "182",
+      "weight": "78",
+      "goal": "Maintain high energy levels and muscle preservation during extreme alpine expedition",
+      "restrictions": "Limited cooking equipment, must use lightweight/compact food sources, high calorie density required"
+    },
+    "solution_criteria": [
+      "Provide 3500-4000 daily calories suitable for high altitude environment",
+      "Include balanced macronutrient distribution (40% carbs, 30% protein, 30% fat)",
+      "Ensure meals are lightweight and easily prepared with minimal cooking resources",
+      "Account for increased metabolic demands of mountaineering at high altitude"
+    ],
+    "task_description": "write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test scenario for an athlete in an unusual training context (high altitude mountaineering expedition)"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "75",
+      "goal": "pre-competition weight cut for MMA welterweight division",
+      "restrictions": "no dairy, gluten-free, high protein requirement"
+    },
+    "solution_criteria": [
+      "Meal plan must support 1-2 kg weight reduction",
+      "Maintain protein intake of at least 2g per kg of body weight",
+      "Provide balanced macronutrient distribution",
+      "Accommodate specified dietary restrictions"
+    ],
+    "task_description": "write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Test scenario targeting specific performance goal (pre-competition weight cutting for combat sports athlete)"
+  }
+]

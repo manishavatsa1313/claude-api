@@ -1,0 +1,65 @@
+[
+  {
+    "output": "I'll generate a detailed meal plan based on the provided athlete information and guidelines. Here's a comprehensive nutritional plan:\n\nAthlete Meal Plan for Marathon Training\n\nDaily Calorie Calculation:\n- Base Metabolic Rate (BMR): ~1,850 calories\n- Training Expenditure: +800-1000 calories\n- Total Daily Calories: 2,650-2,850 calories\n\nMacronutrient Breakdown:\n- Protein: 160-180g (25-30%)\n- Carbohydrates: 360-400g (50-55%)\n- Fats: 80-95g (25-30%)\n\nMeal Plan:\n\n\ud83c\udf05 Breakfast (7:00 AM) - 650 calories\n- Chickpea flour pancakes (200g)\n- Silken tofu scramble (250g)\n- Mixed berries (100g)\n- Chia seeds (25g)\n- Almond milk (250ml)\nMacros: 48g protein, 62g carbs, 26g fat\n\n\ud83e\udd57 Mid-Morning Snack (10:00 AM) - 350 calories\n- Protein smoothie:\n- Pea protein powder (40g)\n- Banana (100g)\n- Spinach (50g)\n- Almond butter (30g)\n- Hemp seeds (20g)\nMacros: 35g protein, 35g carbs, 18g fat\n\n\ud83c\udf7d\ufe0f Lunch (1:00 PM) - 700 calories\n- Quinoa and black bean bowl:\n- Quinoa (150g)\n- Black beans (150g)\n- Roasted vegetables (200g)\n- Avocado (80g)\n- Nutritional yeast (15g)\nMacros: 42g protein, 85g carbs, 25g fat\n\n\ud83c\udf4e Afternoon Snack (4:00 PM) - 300 calories\n- Energy protein balls:\n- Hemp seeds (40g)\n- Dates (70g)\n- Pumpkin seeds (30g)\n- Green tea\nMacros: 18g protein, 35g carbs, 16g fat\n\n\ud83e\udd58 Dinner (7:00 PM) - 650 calories\n- Tempeh and vegetable stir-fry:\n- Tempeh (220g)\n- Mixed vegetables (220g)\n- Brown rice (160g)\n- Coconut amino sauce (30g)\nMacros: 45g protein, 78g carbs, 22g fat\n\nHydration:\n- Water intake: 3-4 liters\n- Electrolyte supplement\n\nSupplement Recommendations:\n- Vegan B12\n- Algae-based Omega-3\n- Plant-based protein powder\n- Vitamin D\n\nNotes:\n- 100% vegan ingredients\n- Gluten-free\n- High-protein plant sources\n- Optimized for marathon training\n\nPerformance Optimization Tips:\n- Eat 1-2 hours before training\n- Post-workout meal within 30 minutes\n- Consistent meal timing\n- Adjust portions based on training intensity\n\nEstimated Daily Cost: $15-18\n\nConsultation Recommended: Personalize with sports nutritionist\n\nThis meal plan meticulously addresses the athlete's specific dietary requirements while providing comprehensive nutritional support for marathon training. It offers a balanced approach to vegan, gluten-free, high-protein nutrition with precise portion sizes and macronutrient breakdown.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "75",
+        "goal": "Marathon training nutrition optimization",
+        "restrictions": "Vegan, gluten-free, high-protein requirements"
+      },
+      "solution_criteria": [
+        "Provides complete daily nutritional coverage",
+        "Meets vegan and gluten-free dietary constraints",
+        "Ensures adequate protein intake for endurance athlete",
+        "Balances macronutrients for performance"
+      ],
+      "task_description": "write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test scenario with extreme dietary restriction (vegan, gluten-free, high-protein for endurance athlete)"
+    },
+    "score": 9,
+    "reasoning": "The solution thoroughly meets all mandatory requirements by providing a complete daily nutritional plan with exact caloric intake (2,650-2,850 calories), detailed macronutrient breakdown (protein: 160-180g, carbs: 360-400g, fats: 80-95g), and specific meals with precise foods, portions, and timing. The plan successfully addresses the athlete's vegan, gluten-free, and high-protein needs while optimizing nutrition for marathon training."
+  },
+  {
+    "output": "I'll create a meal plan tailored to the alpine expedition athlete's specific needs:\n\nAthlete Expedition Nutrition Plan\n\nDaily Calorie Calculation:\n- Base Metabolic Rate (BMR): ~2,000 calories\n- Expedition Activity Expenditure: +1,200-1,500 calories\n- Total Daily Calories: 3,200-3,500 calories\n\nMacronutrient Breakdown:\n- Protein: 180-200g (22-25%)\n- Carbohydrates: 400-450g (50-55%)\n- Fats: 120-140g (25-30%)\n\n\ud83c\udf05 Breakfast (6:00 AM) - 800 calories\n- Dehydrated egg powder (50g)\n- Instant oatmeal (100g)\n- Dried fruit mix (75g)\n- Nuts (almonds/walnuts) (50g)\n- Compact protein bar (60g)\nMacros: 55g protein, 85g carbs, 35g fat\n\n\ud83e\udd5c Mid-Morning Snack (9:00 AM) - 500 calories\n- Trail mix (150g)\n- Beef jerky (75g)\n- Electrolyte powder packet\nMacros: 40g protein, 45g carbs, 25g fat\n\n\ud83c\udf7d\ufe0f Lunch (12:00 PM) - 850 calories\n- Freeze-dried mountain meal (250g)\n- Energy dense nut butter (50g)\n- Protein powder mixed with water (40g)\n- High-calorie energy bar (75g)\nMacros: 65g protein, 95g carbs, 35g fat\n\n\ud83c\udf4e Afternoon Snack (3:00 PM) - 400 calories\n- Compact energy blocks\n- Dehydrated vegetable chips (50g)\n- High-protein energy gel\nMacros: 25g protein, 50g carbs, 15g fat\n\n\ud83e\udd58 Dinner (6:00 PM) - 650 calories\n- Expedition meal kit (250g)\n- Dried meat packet (75g)\n- Compact carbohydrate supplement\nMacros: 50g protein, 80g carbs, 25g fat\n\nCritical Expedition Considerations:\n- Lightweight, compact food sources\n- High calorie density\n- Minimal cooking requirements\n- Easily digestible nutrients\n\nHydration:\n- Water intake: 4-5 liters\n- Electrolyte replacement critical\n- Compact hydration tablets\n\nSupplement Recommendations:\n- Multivitamin\n- Electrolyte supplements\n- Compact protein powder\n- Emergency glucose packets\n\nPerformance Optimization:\n- Consistent small meals\n- Rapid energy replenishment\n- Lightweight nutritional strategy\n- Minimize digestive burden\n\nEstimated Daily Cost: $25-35\nWeight of Total Daily Provisions: Approximately 1-1.5 kg\n\nKey Nutritional Adaptations:\n- Maximized calorie-to-weight ratio\n- Minimized cooking/preparation time\n- Focused on sustained energy release\n- Adapted to extreme alpine conditions\n\nNote: Precise consultation with expedition nutritionist recommended for personalized optimization.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "182",
+        "weight": "78",
+        "goal": "Maintain high energy levels and muscle preservation during extreme alpine expedition",
+        "restrictions": "Limited cooking equipment, must use lightweight/compact food sources, high calorie density required"
+      },
+      "solution_criteria": [
+        "Provide 3500-4000 daily calories suitable for high altitude environment",
+        "Include balanced macronutrient distribution (40% carbs, 30% protein, 30% fat)",
+        "Ensure meals are lightweight and easily prepared with minimal cooking resources",
+        "Account for increased metabolic demands of mountaineering at high altitude"
+      ],
+      "task_description": "write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test scenario for an athlete in an unusual training context (high altitude mountaineering expedition)"
+    },
+    "score": 9,
+    "reasoning": "The solution meets all mandatory requirements with a comprehensive, well-structured meal plan. It provides detailed caloric intake (3,200-3,500 calories), breaks down macronutrients, includes specific meals with foods, portions, and timing. The plan is tailored to high-altitude mountaineering needs, focusing on lightweight, energy-dense foods. Minor deviations exist in macronutrient ratios and nutritional diversity, but these do not fundamentally compromise the plan's effectiveness."
+  },
+  {
+    "output": "I'll generate a comprehensive meal plan for an MMA welterweight athlete with the specified dietary restrictions. Here's the detailed plan:\n\nAthlete Meal Plan for MMA Welterweight Weight Cut\n\nDaily Calorie Calculation:\n- Base Metabolic Rate (BMR): ~1,900 calories\n- Training Expenditure: +800-1000 calories\n- Total Daily Calories: 2,700-2,900 calories\n\nMacronutrient Breakdown:\n- Protein: 180-200g (25-30%)\n- Carbohydrates: 350-400g (45-50%)\n- Fats: 90-110g (25-30%)\n\nMeal Plan:\n\n\ud83c\udf05 Breakfast (6:30 AM) - 700 calories\n- Egg white and turkey scramble (250g egg whites)\n- Sweet potato hash (200g)\n- Spinach (100g)\n- Avocado (50g)\n- Coconut oil for cooking (15g)\nMacros: 50g protein, 60g carbs, 30g fat\n\n\ud83e\udd57 Mid-Morning Snack (9:30 AM) - 350 calories\n- Chicken breast (150g)\n- Almond butter (25g)\n- Mixed berries (100g)\n- Rice cake (50g)\nMacros: 40g protein, 30g carbs, 20g fat\n\n\ud83c\udf7d\ufe0f Lunch (12:30 PM) - 700 calories\n- Grilled salmon (200g)\n- Quinoa (150g)\n- Roasted vegetables (200g)\n- Olive oil dressing (20g)\nMacros: 45g protein, 70g carbs, 25g fat\n\n\ud83c\udf4e Pre-Training Snack (3:30 PM) - 300 calories\n- Turkey jerky (75g)\n- Sweet potato (100g)\n- Almond butter (20g)\nMacros: 35g protein, 40g carbs, 15g fat\n\n\ud83e\udd58 Post-Training Dinner (7:00 PM) - 650 calories\n- Lean ground turkey (250g)\n- Cauliflower rice (200g)\n- Mixed vegetables (150g)\n- Coconut aminos sauce (15g)\nMacros: 50g protein, 50g carbs, 20g fat\n\nEvening Protein Shake (9:00 PM) - 200 calories\n- Egg white protein powder (40g)\n- Almond milk (250ml)\n- Frozen berries (50g)\nMacros: 30g protein, 15g carbs, 5g fat\n\nHydration:\n- Water intake: 4-5 liters\n- Electrolyte supplement\n\nSupplement Recommendations:\n- Gluten-free protein powder\n- Fish oil\n- Multivitamin\n- Electrolyte supplement\n\nPerformance Optimization Notes:\n- Meal timing crucial for weight cut\n- Hydration critical for performance\n- Adjust portions based on training intensity\n\nEstimated Daily Cost: $20-25\n\nKey Considerations:\n- 100% dairy-free\n- Gluten-free ingredients\n- High protein sources\n- Supports weight cut for welterweight division\n\nSpecial Notes:\n- Consult with sports nutritionist\n- Monitor weight and energy levels\n- Adjust plan as weight cut progresses\n\nNutritional Breakdown Summary:\n- Total Calories: 2,900\n- Total Protein: 250g\n- Total Carbohydrates: 265g\n- Total Fat: 115g\n\nThe meal plan addresses the athlete's specific dietary restrictions while providing optimal nutrition for intense MMA training and weight management.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "75",
+        "goal": "pre-competition weight cut for MMA welterweight division",
+        "restrictions": "no dairy, gluten-free, high protein requirement"
+      },
+      "solution_criteria": [
+        "Meal plan must support 1-2 kg weight reduction",
+        "Maintain protein intake of at least 2g per kg of body weight",
+        "Provide balanced macronutrient distribution",
+        "Accommodate specified dietary restrictions"
+      ],
+      "task_description": "write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Test scenario targeting specific performance goal (pre-competition weight cutting for combat sports athlete)"
+    },
+    "score": 7,
+    "reasoning": "The solution provides a structured meal plan that largely meets the specified criteria. It addresses dietary restrictions, offers balanced macronutrients, and includes detailed meal planning. However, the protein intake is marginally below the recommended 2g per kg of body weight for an athlete in a weight cut phase, and the calorie calculation may not precisely support the desired weight reduction."
+  }
+]

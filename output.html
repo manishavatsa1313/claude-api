@@ -1,0 +1,427 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prompt Evaluation Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .header {
+                background-color: #f0f0f0;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .summary-stats {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .stat-box {
+                background-color: #fff;
+                border-radius: 5px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                flex-basis: 30%;
+                min-width: 200px;
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th {
+                background-color: #4a4a4a;
+                color: white;
+                text-align: left;
+                padding: 12px;
+            }
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                vertical-align: top;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .output-cell {
+                white-space: pre-wrap;
+            }
+            .score {
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 3px;
+                display: inline-block;
+            }
+            .score-high {
+                background-color: #c8e6c9;
+                color: #2e7d32;
+            }
+            .score-medium {
+                background-color: #fff9c4;
+                color: #f57f17;
+            }
+            .score-low {
+                background-color: #ffcdd2;
+                color: #c62828;
+            }
+            .output {
+                overflow: auto;
+                white-space: pre-wrap;
+            }
+
+            .output pre {
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 10px;
+                margin: 0;
+                font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+                font-size: 14px;
+                line-height: 1.4;
+                color: #333;
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+                overflow-x: auto;
+                white-space: pre-wrap; 
+                word-wrap: break-word; 
+            }
+
+            td {
+                width: 20%;
+            }
+            .score-col {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Prompt Evaluation Report</h1>
+            <div class="summary-stats">
+                <div class="stat-box">
+                    <div>Total Test Cases</div>
+                    <div class="stat-value">3</div>
+                </div>
+                <div class="stat-box">
+                    <div>Average Score</div>
+                    <div class="stat-value">8.3 / 10</div>
+                </div>
+                <div class="stat-box">
+                    <div>Pass Rate (≥7)</div>
+                    <div class="stat-value">100.0%</div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Prompt Inputs</th>
+                    <th>Solution Criteria</th>
+                    <th>Output</th>
+                    <th>Score</th>
+                    <th>Reasoning</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            <tr>
+                <td>Test scenario with extreme dietary restriction (vegan, gluten-free, high-protein for endurance athlete)</td>
+                <td class="prompt-inputs"><strong>height:</strong> 180<br><strong>weight:</strong> 75<br><strong>goal:</strong> Marathon training nutrition optimization<br><strong>restrictions:</strong> Vegan, gluten-free, high-protein requirements</td>
+                <td class="criteria">• Provides complete daily nutritional coverage<br>• Meets vegan and gluten-free dietary constraints<br>• Ensures adequate protein intake for endurance athlete<br>• Balances macronutrients for performance</td>
+                <td class="output"><pre>I'll generate a detailed meal plan based on the provided athlete information and guidelines. Here's a comprehensive nutritional plan:
+
+Athlete Meal Plan for Marathon Training
+
+Daily Calorie Calculation:
+- Base Metabolic Rate (BMR): ~1,850 calories
+- Training Expenditure: +800-1000 calories
+- Total Daily Calories: 2,650-2,850 calories
+
+Macronutrient Breakdown:
+- Protein: 160-180g (25-30%)
+- Carbohydrates: 360-400g (50-55%)
+- Fats: 80-95g (25-30%)
+
+Meal Plan:
+
+🌅 Breakfast (7:00 AM) - 650 calories
+- Chickpea flour pancakes (200g)
+- Silken tofu scramble (250g)
+- Mixed berries (100g)
+- Chia seeds (25g)
+- Almond milk (250ml)
+Macros: 48g protein, 62g carbs, 26g fat
+
+🥗 Mid-Morning Snack (10:00 AM) - 350 calories
+- Protein smoothie:
+- Pea protein powder (40g)
+- Banana (100g)
+- Spinach (50g)
+- Almond butter (30g)
+- Hemp seeds (20g)
+Macros: 35g protein, 35g carbs, 18g fat
+
+🍽️ Lunch (1:00 PM) - 700 calories
+- Quinoa and black bean bowl:
+- Quinoa (150g)
+- Black beans (150g)
+- Roasted vegetables (200g)
+- Avocado (80g)
+- Nutritional yeast (15g)
+Macros: 42g protein, 85g carbs, 25g fat
+
+🍎 Afternoon Snack (4:00 PM) - 300 calories
+- Energy protein balls:
+- Hemp seeds (40g)
+- Dates (70g)
+- Pumpkin seeds (30g)
+- Green tea
+Macros: 18g protein, 35g carbs, 16g fat
+
+🥘 Dinner (7:00 PM) - 650 calories
+- Tempeh and vegetable stir-fry:
+- Tempeh (220g)
+- Mixed vegetables (220g)
+- Brown rice (160g)
+- Coconut amino sauce (30g)
+Macros: 45g protein, 78g carbs, 22g fat
+
+Hydration:
+- Water intake: 3-4 liters
+- Electrolyte supplement
+
+Supplement Recommendations:
+- Vegan B12
+- Algae-based Omega-3
+- Plant-based protein powder
+- Vitamin D
+
+Notes:
+- 100% vegan ingredients
+- Gluten-free
+- High-protein plant sources
+- Optimized for marathon training
+
+Performance Optimization Tips:
+- Eat 1-2 hours before training
+- Post-workout meal within 30 minutes
+- Consistent meal timing
+- Adjust portions based on training intensity
+
+Estimated Daily Cost: $15-18
+
+Consultation Recommended: Personalize with sports nutritionist
+
+This meal plan meticulously addresses the athlete's specific dietary requirements while providing comprehensive nutritional support for marathon training. It offers a balanced approach to vegan, gluten-free, high-protein nutrition with precise portion sizes and macronutrient breakdown.</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution thoroughly meets all mandatory requirements by providing a complete daily nutritional plan with exact caloric intake (2,650-2,850 calories), detailed macronutrient breakdown (protein: 160-180g, carbs: 360-400g, fats: 80-95g), and specific meals with precise foods, portions, and timing. The plan successfully addresses the athlete's vegan, gluten-free, and high-protein needs while optimizing nutrition for marathon training.</td>
+            </tr>
+        
+            <tr>
+                <td>Test scenario for an athlete in an unusual training context (high altitude mountaineering expedition)</td>
+                <td class="prompt-inputs"><strong>height:</strong> 182<br><strong>weight:</strong> 78<br><strong>goal:</strong> Maintain high energy levels and muscle preservation during extreme alpine expedition<br><strong>restrictions:</strong> Limited cooking equipment, must use lightweight/compact food sources, high calorie density required</td>
+                <td class="criteria">• Provide 3500-4000 daily calories suitable for high altitude environment<br>• Include balanced macronutrient distribution (40% carbs, 30% protein, 30% fat)<br>• Ensure meals are lightweight and easily prepared with minimal cooking resources<br>• Account for increased metabolic demands of mountaineering at high altitude</td>
+                <td class="output"><pre>I'll create a meal plan tailored to the alpine expedition athlete's specific needs:
+
+Athlete Expedition Nutrition Plan
+
+Daily Calorie Calculation:
+- Base Metabolic Rate (BMR): ~2,000 calories
+- Expedition Activity Expenditure: +1,200-1,500 calories
+- Total Daily Calories: 3,200-3,500 calories
+
+Macronutrient Breakdown:
+- Protein: 180-200g (22-25%)
+- Carbohydrates: 400-450g (50-55%)
+- Fats: 120-140g (25-30%)
+
+🌅 Breakfast (6:00 AM) - 800 calories
+- Dehydrated egg powder (50g)
+- Instant oatmeal (100g)
+- Dried fruit mix (75g)
+- Nuts (almonds/walnuts) (50g)
+- Compact protein bar (60g)
+Macros: 55g protein, 85g carbs, 35g fat
+
+🥜 Mid-Morning Snack (9:00 AM) - 500 calories
+- Trail mix (150g)
+- Beef jerky (75g)
+- Electrolyte powder packet
+Macros: 40g protein, 45g carbs, 25g fat
+
+🍽️ Lunch (12:00 PM) - 850 calories
+- Freeze-dried mountain meal (250g)
+- Energy dense nut butter (50g)
+- Protein powder mixed with water (40g)
+- High-calorie energy bar (75g)
+Macros: 65g protein, 95g carbs, 35g fat
+
+🍎 Afternoon Snack (3:00 PM) - 400 calories
+- Compact energy blocks
+- Dehydrated vegetable chips (50g)
+- High-protein energy gel
+Macros: 25g protein, 50g carbs, 15g fat
+
+🥘 Dinner (6:00 PM) - 650 calories
+- Expedition meal kit (250g)
+- Dried meat packet (75g)
+- Compact carbohydrate supplement
+Macros: 50g protein, 80g carbs, 25g fat
+
+Critical Expedition Considerations:
+- Lightweight, compact food sources
+- High calorie density
+- Minimal cooking requirements
+- Easily digestible nutrients
+
+Hydration:
+- Water intake: 4-5 liters
+- Electrolyte replacement critical
+- Compact hydration tablets
+
+Supplement Recommendations:
+- Multivitamin
+- Electrolyte supplements
+- Compact protein powder
+- Emergency glucose packets
+
+Performance Optimization:
+- Consistent small meals
+- Rapid energy replenishment
+- Lightweight nutritional strategy
+- Minimize digestive burden
+
+Estimated Daily Cost: $25-35
+Weight of Total Daily Provisions: Approximately 1-1.5 kg
+
+Key Nutritional Adaptations:
+- Maximized calorie-to-weight ratio
+- Minimized cooking/preparation time
+- Focused on sustained energy release
+- Adapted to extreme alpine conditions
+
+Note: Precise consultation with expedition nutritionist recommended for personalized optimization.</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution meets all mandatory requirements with a comprehensive, well-structured meal plan. It provides detailed caloric intake (3,200-3,500 calories), breaks down macronutrients, includes specific meals with foods, portions, and timing. The plan is tailored to high-altitude mountaineering needs, focusing on lightweight, energy-dense foods. Minor deviations exist in macronutrient ratios and nutritional diversity, but these do not fundamentally compromise the plan's effectiveness.</td>
+            </tr>
+        
+            <tr>
+                <td>Test scenario targeting specific performance goal (pre-competition weight cutting for combat sports athlete)</td>
+                <td class="prompt-inputs"><strong>height:</strong> 178<br><strong>weight:</strong> 75<br><strong>goal:</strong> pre-competition weight cut for MMA welterweight division<br><strong>restrictions:</strong> no dairy, gluten-free, high protein requirement</td>
+                <td class="criteria">• Meal plan must support 1-2 kg weight reduction<br>• Maintain protein intake of at least 2g per kg of body weight<br>• Provide balanced macronutrient distribution<br>• Accommodate specified dietary restrictions</td>
+                <td class="output"><pre>I'll generate a comprehensive meal plan for an MMA welterweight athlete with the specified dietary restrictions. Here's the detailed plan:
+
+Athlete Meal Plan for MMA Welterweight Weight Cut
+
+Daily Calorie Calculation:
+- Base Metabolic Rate (BMR): ~1,900 calories
+- Training Expenditure: +800-1000 calories
+- Total Daily Calories: 2,700-2,900 calories
+
+Macronutrient Breakdown:
+- Protein: 180-200g (25-30%)
+- Carbohydrates: 350-400g (45-50%)
+- Fats: 90-110g (25-30%)
+
+Meal Plan:
+
+🌅 Breakfast (6:30 AM) - 700 calories
+- Egg white and turkey scramble (250g egg whites)
+- Sweet potato hash (200g)
+- Spinach (100g)
+- Avocado (50g)
+- Coconut oil for cooking (15g)
+Macros: 50g protein, 60g carbs, 30g fat
+
+🥗 Mid-Morning Snack (9:30 AM) - 350 calories
+- Chicken breast (150g)
+- Almond butter (25g)
+- Mixed berries (100g)
+- Rice cake (50g)
+Macros: 40g protein, 30g carbs, 20g fat
+
+🍽️ Lunch (12:30 PM) - 700 calories
+- Grilled salmon (200g)
+- Quinoa (150g)
+- Roasted vegetables (200g)
+- Olive oil dressing (20g)
+Macros: 45g protein, 70g carbs, 25g fat
+
+🍎 Pre-Training Snack (3:30 PM) - 300 calories
+- Turkey jerky (75g)
+- Sweet potato (100g)
+- Almond butter (20g)
+Macros: 35g protein, 40g carbs, 15g fat
+
+🥘 Post-Training Dinner (7:00 PM) - 650 calories
+- Lean ground turkey (250g)
+- Cauliflower rice (200g)
+- Mixed vegetables (150g)
+- Coconut aminos sauce (15g)
+Macros: 50g protein, 50g carbs, 20g fat
+
+Evening Protein Shake (9:00 PM) - 200 calories
+- Egg white protein powder (40g)
+- Almond milk (250ml)
+- Frozen berries (50g)
+Macros: 30g protein, 15g carbs, 5g fat
+
+Hydration:
+- Water intake: 4-5 liters
+- Electrolyte supplement
+
+Supplement Recommendations:
+- Gluten-free protein powder
+- Fish oil
+- Multivitamin
+- Electrolyte supplement
+
+Performance Optimization Notes:
+- Meal timing crucial for weight cut
+- Hydration critical for performance
+- Adjust portions based on training intensity
+
+Estimated Daily Cost: $20-25
+
+Key Considerations:
+- 100% dairy-free
+- Gluten-free ingredients
+- High protein sources
+- Supports weight cut for welterweight division
+
+Special Notes:
+- Consult with sports nutritionist
+- Monitor weight and energy levels
+- Adjust plan as weight cut progresses
+
+Nutritional Breakdown Summary:
+- Total Calories: 2,900
+- Total Protein: 250g
+- Total Carbohydrates: 265g
+- Total Fat: 115g
+
+The meal plan addresses the athlete's specific dietary restrictions while providing optimal nutrition for intense MMA training and weight management.</pre></td>
+                <td class="score-col"><span class="score score-medium">7</span></td>
+                <td class="reasoning">The solution provides a structured meal plan that largely meets the specified criteria. It addresses dietary restrictions, offers balanced macronutrients, and includes detailed meal planning. However, the protein intake is marginally below the recommended 2g per kg of body weight for an athlete in a weight cut phase, and the calorie calculation may not precisely support the desired weight reduction.</td>
+            </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    
